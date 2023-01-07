@@ -298,7 +298,9 @@ footer p {
 }
 
 .titrearticle h3{
+  width: 350px;
   margin-top: 5px;
+  margin-left: -7px;
   text-align: center;
 }
 
@@ -315,4 +317,8 @@ footer p {
 .titrearticlespecial h4{
   margin-top: 6px;
   text-align: center;
+}
+
+.listeimg {
+  margin-top: 20px;
 }
