@@ -11,6 +11,10 @@ img {
     height: auto;
 }
 
+.presentation{
+  padding-top: 100px;
+}
+
 #menuToggle {
   display: block;
   position: relative;
@@ -132,6 +136,8 @@ header {
   background-color: #9ED6A4;
   margin: -10px -0.5rem 12px -10px;
   padding-top: 10px;
+  padding-right: 2rem;
+  position: fixed;
 }
 
 header img {
