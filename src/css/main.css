@@ -1,17 +1,14 @@
 img {
-    max-width: 34%;
+    max-width: 100%;
     height: auto;
 }
 
-#menuToggle
-{
+#menuToggle {
   display: block;
   position: relative;
-  top: -112px;
-  left: 3px;
-  
+  top: -104px;
+  left: 15px;
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 }
@@ -97,10 +94,11 @@ img {
 #menu {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   position: absolute;
-  width: 25%;
-  margin: -127px 0 0 -50px;
+  width: 60%;
+  height: 3360%;
+  margin: -134px 0 0 -43px;
   padding: 54px;
-  padding-top: 129px;
+  padding-top: 144px;
   background: #9ED6A4;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -110,8 +108,8 @@ img {
 }
 
 #menu li {
-  padding: 5px 0;
-  font-size: 12px;
+  padding: 10px 0;
+  font-size: 17px;
 }
 
 #menuToggle input:checked ~ ul
