@@ -205,21 +205,45 @@ footer{
 
 footer ul {
   list-style-type: none;
-  padding: 0 1.25rem;
+  padding: 0 0 0 1.25rem;
+  margin: 0;
 }
 
 footer li {
-  margin: 20px 0 0 0;
+  margin: 13px 0 0 0;
   font-size: 17px;
+}
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+footer li.mailto a {
+  color: #1717a7;
+  text-decoration: underline;
+}
+
+footer li.social{
+  margin-top: 30px;
 }
 
 footer li.reseaux { 
   display: inline-block;
-  margin: 20px 1.25rem 1.25rem 0;
+  margin: 10px 5px 0.75rem 0;
+}
+
+footer li.reseaux img {
+  width: 75%;
 }
 
 footer p {
   margin-left: 1.25rem;
+}
+
+.mentionlegal{
+  font-size: 10px;
+  width: 60%;
 }
 
 .logo_montbeliard {
