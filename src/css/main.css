@@ -1,5 +1,6 @@
-html, body, main, div {
+html, body, main {
   height: 100%;
+  background-color: #D6C09E;
 }
 
 p{
@@ -12,6 +13,10 @@ img {
 }
 
 .presentation{
+  background-color: #BE9A64;
+}
+
+.presentation_img{
   padding-top: 100px;
 }
 
