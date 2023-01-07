@@ -8,14 +8,8 @@ p{
 }
 
 img {
-  width: 100%;
-  max-width: 359.2px;
+  max-width: 100%;
   height: auto;
-  object-fit: cover;
-}
-
-.presentation{
-  background-color: #BE9A64;
 }
 
 .presentation_img{
@@ -143,7 +137,7 @@ header {
   background-color: #9ED6A4;
   margin: -10px -0.5rem 12px -10px;
   padding-top: 10px;
-  padding-right: 2rem;
+  padding-right: 100%;
   position: fixed;
 }
 
@@ -200,14 +194,6 @@ article p {
   padding: 0;
 }
 
-article a {
-  display: block;
-  width: 100%;
-  max-width: 90.6px;
-  position: relative;
-  left: 13.75rem;
-  top: -2.75rem;
-  padding-right: 1.75rem;
-  text-decoration: none;
-  opacity: 0;
+article {
+  margin-bottom: 2.25rem;
 }
