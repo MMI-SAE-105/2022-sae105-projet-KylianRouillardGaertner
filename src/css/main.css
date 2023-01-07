@@ -8,12 +8,16 @@ p{
 }
 
 h1{
-  font-size: 2.15rem;
+  font-size: 2rem;
 }
 
 h2{
   font-size: 1.75rem;
   width: 100px;
+}
+
+h3{
+  font-size: 1.25rem;
 }
 
 img {
@@ -179,6 +183,7 @@ header {
   padding-top: 10px;
   padding-right: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 header img {
@@ -249,4 +254,57 @@ footer p {
 .logo_montbeliard {
   width: 35px;
   transform: translate(-160px, -35px);
+}
+
+/* Article CSS */
+
+.intro img{
+  margin-top: 110px;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  width: 90%;
+  float: right;
+}
+
+.intro h1{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro span{
+  display: block;
+  height: 4px;
+  width: 340px;
+  margin-left: 10px;
+  position: absolute;
+  border-radius: 20px;
+  background-color: #000000;
+  z-index: 0;
+}
+
+.intro span:nth-child(4){
+  margin-top: -10px;
+}
+
+.intro span:nth-child(2){
+  margin-top: 305px;
+}
+
+.titrearticle {
+  width: 94%;
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border-radius: 100px;
+  background-color: #BE9A64;
+  border: 3px solid black;
+}
+
+.titrearticle h3{
+  margin-left: 50px;
+  margin-top: 5px;
+  font-size: 20px;
 }
