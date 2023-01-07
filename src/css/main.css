@@ -7,6 +7,15 @@ p{
   font-size: 14px;
 }
 
+h1{
+  font-size: 2.15rem;
+}
+
+h2{
+  font-size: 1.75rem;
+  width: 100px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -14,7 +23,8 @@ img {
 
 .presentation{
   background-color: #BE9A64;
-  padding-bottom: 1px;
+  border-radius: 7%;
+  padding-bottom: 20px;
   margin-bottom: 40px;
 }
 
@@ -24,6 +34,26 @@ img {
   margin-bottom: 20px;
   width: 90%;
   float: right;
+}
+
+.presentation h1{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.presentation p{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+article {
+  margin-bottom: 2.25rem;
 }
 
 #menuToggle {
@@ -164,8 +194,6 @@ header h2 {
   left: 8.5rem;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 1.75rem;
-  width: 100px;
 }
 
 footer{
@@ -197,13 +225,4 @@ footer p {
 .logo_montbeliard {
   width: 35px;
   transform: translate(-9.5rem, -2.15rem);
-}
-
-article p {
-  margin: 0;
-  padding: 0;
-}
-
-article {
-  margin-bottom: 2.25rem;
 }
