@@ -8,8 +8,10 @@ p{
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  width: 100%;
+  max-width: 359.2px;
+  height: auto;
+  object-fit: cover;
 }
 
 .presentation{
@@ -152,7 +154,7 @@ header img {
   padding-left: 20.5rem;
 }
 
-header h4 {
+header h2 {
   position: relative;
   top: -0.5rem;
   left: 8.5rem;
@@ -191,4 +193,21 @@ footer p {
 .logo_montbeliard {
   width: 35px;
   transform: translate(-9.5rem, -2.15rem);
+}
+
+article p {
+  margin: 0;
+  padding: 0;
+}
+
+article a {
+  display: block;
+  width: 100%;
+  max-width: 90.6px;
+  position: relative;
+  left: 13.75rem;
+  top: -2.75rem;
+  padding-right: 1.75rem;
+  text-decoration: none;
+  opacity: 0;
 }
