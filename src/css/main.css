@@ -30,11 +30,6 @@ img {
   transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
-{
-  color: tomato;
-}
-
 #menuToggle input
 {
   display: block;
@@ -58,8 +53,7 @@ img {
   width: 33px;
   height: 4px;
   margin-bottom: 5px;
-  position: relative;
-  
+  position: relative;  
   background: #090909;
   border-radius: 3px;
   
@@ -103,6 +97,7 @@ img {
 #menu {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   position: absolute;
+  overflow-x: hidden;;
   width: 60%;
   height: 3360%;
   margin: -134px 0 0 -43px;
@@ -149,7 +144,7 @@ header img {
 header h4 {
   position: relative;
   top: -0.5rem;
-  left: 8.75rem;
+  left: 8.5rem;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 1.75rem;
