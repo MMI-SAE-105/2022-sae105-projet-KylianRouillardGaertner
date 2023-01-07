@@ -129,7 +129,7 @@ img {
 .etablissement
 {
   width: 100%;
-  transform: translate(28%, 40%);
+  transform: translate(25%, 40%);
 }
 
 footer{
@@ -156,4 +156,9 @@ footer li.reseaux {
 
 footer p {
   margin-left: 1.25rem;
+}
+
+.logo_montbeliard {
+  width: 40px;
+  transform: translate(0, 1rem);
 }
