@@ -275,17 +275,6 @@ footer p {
   text-align: center;
 }
 
-.intro span{
-  display: block;
-  height: 4px;
-  width: 340px;
-  margin-left: 10px;
-  position: absolute;
-  border-radius: 20px;
-  background-color: #000000;
-  z-index: 0;
-}
-
 .intro span:nth-child(4){
   margin-top: -10px;
 }
