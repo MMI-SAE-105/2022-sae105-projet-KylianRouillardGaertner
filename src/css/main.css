@@ -308,6 +308,16 @@ footer p a {
   text-align: center;
 }
 
+.intro h2{
+  width: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
 .titreautre {
   width: 94%;
   height: 35px;
