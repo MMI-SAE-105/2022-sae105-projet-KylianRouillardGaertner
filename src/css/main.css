@@ -308,18 +308,10 @@ footer p a {
   text-align: center;
 }
 
-.intro span:nth-child(4){
-  margin-top: -10px;
-}
-
-.intro span:nth-child(2){
-  margin-top: 305px;
-}
-
 .titrearticle {
   width: 94%;
   height: 35px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 7px;
   border-radius: 100px;
   background-color: #BE9A64;
