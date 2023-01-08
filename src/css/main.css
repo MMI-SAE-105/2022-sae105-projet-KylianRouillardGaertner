@@ -344,3 +344,16 @@ footer p {
 .listeimg {
   margin-top: 20px;
 }
+
+.arrow {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: -15px;
+  text-align: center;
+}
+
+.arrow1 {
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+}
