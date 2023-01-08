@@ -339,6 +339,31 @@ li.projectsli:first-child {
   color: #000000;
 }
 
+.glossaire {
+  padding-left: 0;
+  padding-right: 35px;
+}
+
+li.glossaireli {
+  list-style-type: none;
+  margin-bottom: 25px;
+  margin-left: 0;
+}
+
+li.glossaireli h3{
+  margin-bottom: 0;
+}
+
+li.glossaireli p{
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+ul li:first-child h3 {
+  margin-top: 30px;
+}
+
 .titrearticle {
   width: 94%;
   height: 35px;
