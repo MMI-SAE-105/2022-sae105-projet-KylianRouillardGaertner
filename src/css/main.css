@@ -457,3 +457,31 @@ form textarea {
   border-radius: 10px;
   padding-left: 10px;
 }
+
+.galerie {
+  position: relative;
+  top: 30px;
+  max-width: 375px;
+  display: flex;
+  flex-direction: row;
+}
+
+.galerie p {
+  max-width: 150px;
+  position: relative;
+  top: -15px;
+  left: 5px;
+  margin-right: 0;
+  width: 200px;
+  text-align: center;
+}
+
+.galerie:last-child {
+  margin-bottom: 20px;
+}
+
+.slide {
+  width: 40%;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
