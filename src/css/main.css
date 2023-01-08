@@ -274,6 +274,18 @@ footer p {
   margin-bottom: 15px;
 }
 
+.pagearticle li {
+  margin-left: 12%;
+  margin-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.pagearticle li+p {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
 .intro img{
   margin-top: 110px;
   margin-right: 5%;
