@@ -255,6 +255,11 @@ footer p {
   margin-left: 1.25rem;
 }
 
+footer p a {
+  color: #1717a7;
+  text-decoration: underline;
+}
+
 .mentionlegal{
   font-size: 10px;
   width: 70%;
