@@ -427,3 +427,33 @@ p.filmographie {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+form {
+  text-align: center; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"], form input[type="email"] {
+  width: 60%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #BE9A64;
+  border: 1px solid #BE9A64;
+  box-shadow: 2px 2px 8px 0px #373737;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+form textarea {
+  width: 60%;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #BE9A64;
+  border: 1px solid #BE9A64;
+  box-shadow: 2px 2px 8px 0px #373737;
+  border-radius: 10px;
+  padding-left: 10px;
+}
